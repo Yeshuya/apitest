@@ -8,7 +8,7 @@ $list = $details['records'];
 
 <h1> Category List </h1>
 </br>
-<table border="1px black solid"> 
+<table border="1px solid black"> 
   <tr>
     <th> Category </th>
     <th> Description </th>
