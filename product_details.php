@@ -10,19 +10,19 @@ $list = $details['records'];
 
 <table> 
   <tr>
-    <td> Product Name </td>
+    <td> Product Name: </td>
     <td> <?php echo $list['name'];?> </td>
   <tr>
   <tr>
-    <td> Description </td>
+    <td> Description: </td>
     <td> <?php echo $list['description'];?> </td>
   <tr>
   <tr>
-    <td> Price </td>
+    <td> Price: </td>
     <td> <?php echo $list['price'];?> </td>
   <tr>
   <tr>
-    <td> Category </td>
+    <td> Category: </td>
     <td> <?php echo $list['category_name'];?> </td>
   <tr>
 </table>
