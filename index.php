@@ -1,3 +1,11 @@
-<a href = "index.php"> Home </a>
-<a href="index.php?page=Products"> Products </a>
-<a href="index.php?page=Category"> Category </a>
+<table>
+  <tr>
+    <td><a href = "index.php"> Home </a></td>
+  </tr>
+  <tr>
+    <td>ref="index.php?page=Products"> Products </a></td>
+  </tr>
+  <tr>
+    <td><a href="index.php?page=Category"> Category </a></td>
+  </tr>
+</table>
