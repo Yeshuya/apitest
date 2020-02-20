@@ -1,2 +1,3 @@
-<a href = "form_create.php"> Create </a>
-<a href="form_delete.php"> Delete </a>
+<a href = "index.php"> Home </a>
+<a href="index.php?page=Products"> Products </a>
+<a href="index.php?page=Category"> Category </a>
