@@ -1,7 +1,9 @@
 <?php
 $products = file_get_contents('http://rdapi.herokuapp.com/product/read.php?id='.$id);
 
-$details = json_decode($products,true);
+$product_details = json_decode($products,true);
+
+$details = array('records' => $product_details);
 
 $list = $details['records'];
 ?>
