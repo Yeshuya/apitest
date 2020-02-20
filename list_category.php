@@ -8,10 +8,10 @@ $list = $details['records'];
 
 <h1> Category List </h1>
 </br>
-<table> 
+<table border="1px black solid"> 
   <tr>
-    <td> Category </td>
-    <td> Description </td>
+    <th> Category </th>
+    <th> Description </th>
   </tr>
 <?php
 foreach($list as $value){
