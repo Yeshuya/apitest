@@ -10,9 +10,9 @@ $list = $details['records'];
 </br>
 <table> 
   <tr>
-    <td> Product </td>
-    <td> Price </td>
-    <td> Category </td>
+    <th> Product </th>
+    <th> Price </th>
+    <th> Category </th>
   </tr>
 <?php
 foreach($list as $value){
