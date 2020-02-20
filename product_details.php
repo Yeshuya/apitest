@@ -7,7 +7,7 @@ $details = array('records' => $product_details);
 
 $list = $details['records'];
 ?>
-</br>
+
 <h1> Product Details </h1>
 </br>
 <table> 
