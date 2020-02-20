@@ -6,6 +6,8 @@ $details = json_decode($products,true);
 $list = $details['records'];
 ?>
 
+<h1> Product List </h1>
+
 <table> 
   <tr>
     <td> Product </td>
