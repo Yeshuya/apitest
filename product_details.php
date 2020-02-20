@@ -1,5 +1,5 @@
 <?php
-$products = file_get_contents('http://rdapi.herokuapp.com/product/read.php?id='.$id);
+$products = file_get_contents('http://rdapi.herokuapp.com/product/read_one.php?id='.$id);
 
 $product_details = json_decode($products,true);
 
